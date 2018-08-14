@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d187ad15-ab6c-451c-a8a1-fb487e167121" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/CashierTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/MergeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/RemoveFirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/ArrayUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/ArrayUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/Cashier.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +24,53 @@
       <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            <state relative-caret-position="15">
+              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Set.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Set.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/MergeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="46" selection-start-line="14" selection-start-column="7" selection-end-line="22" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveFirstTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/RemoveFirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -26,8 +78,8 @@
       <file leaf-file-name="ChangeComplementer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="324">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -35,8 +87,17 @@
       <file leaf-file-name="ChangeComplementerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/ChangeComplementerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+            <state relative-caret-position="301">
+              <caret line="42" column="43" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CashierTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/CashierTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -59,15 +120,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>11</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/ChangeComplementerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/CashierTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/MergeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/RemoveFirstTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" />
       </list>
     </option>
@@ -184,7 +253,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rocks" type="462c0819:PsiDirectoryNode" />
               <item name="zipcodewilmington" type="462c0819:PsiDirectoryNode" />
-              <item name="coinchange" type="462c0819:PsiDirectoryNode" />
+              <item name="arrayutils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,9 +282,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RemoveFirstTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="CashierTest.testChangeOf51" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coinchange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcodewilmington.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rocks.zipcodewilmington" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcodewilmington.CashierTest" />
+      <option name="METHOD_NAME" value="testChangeOf51" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ChangeComplementerTest.testCurrentCoinList25" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="coinchange" />
@@ -231,6 +323,52 @@
       <option name="MAIN_CLASS_NAME" value="rocks.zipcodewilmington.ChangeComplementerTest" />
       <option name="METHOD_NAME" value="testCurrentCoinList25" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MergeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coinchange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcodewilmington.arrayutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rocks.zipcodewilmington.arrayutils" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcodewilmington.arrayutils.MergeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RemoveFirstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="coinchange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rocks.zipcodewilmington.arrayutils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="rocks.zipcodewilmington.arrayutils" />
+      <option name="MAIN_CLASS_NAME" value="rocks.zipcodewilmington.arrayutils.RemoveFirstTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -278,8 +416,17 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ChangeComplementerTest.testCurrentCoinList25" />
+      <item itemvalue="JUnit.CashierTest.testChangeOf51" />
+      <item itemvalue="JUnit.MergeTest" />
+      <item itemvalue="JUnit.RemoveFirstTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveFirstTest" />
+        <item itemvalue="JUnit.MergeTest" />
+        <item itemvalue="JUnit.CashierTest.testChangeOf51" />
         <item itemvalue="JUnit.ChangeComplementerTest.testCurrentCoinList25" />
       </list>
     </recent_temporary>
@@ -294,44 +441,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534258693383</updated>
-      <workItem from="1534258695873" duration="4343000" />
+      <workItem from="1534258695873" duration="9631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 57m 21s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 11m 42s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 58m 13s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 13m 32s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 59m 10s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 13m 38s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 59m 21s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 13m 59s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 01m 06s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 14m 55s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 01m 15s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 15m 41s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 02m 16s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 16m 13s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 02m 18s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 16m 31s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 03m 22s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 18m 06s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 03m 25s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    <history-entry file="RemoveFirstTest - 2018.08.14 at 15h 21m 29s.xml">
+      <configuration name="RemoveFirstTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4343000" />
+    <option name="totallyTimeSpent" value="9631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -346,9 +493,9 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36469072" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32860824" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -382,8 +529,14 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -408,16 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -427,22 +570,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/ChangeComplementerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="301">
+          <caret line="42" column="43" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/CashierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="324">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/MergeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="46" selection-start-line="14" selection-start-column="7" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/arrayutils/RemoveFirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="84" column="28" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        <state relative-caret-position="15">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>

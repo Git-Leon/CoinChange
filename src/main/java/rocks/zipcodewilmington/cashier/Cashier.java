@@ -27,11 +27,42 @@ public class Cashier {
         this(1, 5, 10, 25);
     }
 
-    public Integer[][] getSetOfValidChanges(int targetChange) {
+    public Integer[][] getSetOfValidChange(int targetChange) {
         List<Integer[]> listOfArrayOfCoinsWhichSumToTarget = new ArrayList<>();
         ChangeComplementer cc = new ChangeComplementer(validCoinValues);
         Integer[] arrayOfCoinsWhichSumToTarget = cc.getOptimalComplementArray(targetChange);
         listOfArrayOfCoinsWhichSumToTarget.add(arrayOfCoinsWhichSumToTarget);
+        for (Integer coinToRemove : arrayOfCoinsWhichSumToTarget) {
+            arrayOfCoinsWhichSumToTarget = ArrayUtils.removeFirst(arrayOfCoinsWhichSumToTarget, coinToRemove);
+            cc = new ChangeComplementer(validCoinValues, arrayOfCoinsWhichSumToTarget);
+            Integer[] arrayToMerge = cc.getOptimalComplementArray(coinToRemove);
+            arrayOfCoinsWhichSumToTarget = ArrayUtils.merge(arrayOfCoinsWhichSumToTarget, arrayToMerge);
+            listOfArrayOfCoinsWhichSumToTarget.add(arrayOfCoinsWhichSumToTarget);
+
+        }
         return listOfArrayOfCoinsWhichSumToTarget.stream().toArray(Integer[][]::new);
+    }
+
+
+    public Integer[][] getSetOfValidChanges(final int targetChange) {
+        List<Integer[]> listOfArrayOfCoinsWhichSumToTarget = new ArrayList<>();
+        ChangeComplementer cc = new ChangeComplementer(validCoinValues);
+
+        final Integer[] optimalSolution = cc.getOptimalComplementArray(targetChange);
+        listOfArrayOfCoinsWhichSumToTarget.add(optimalSolution);
+        for (Integer coin : optimalSolution) {
+            Integer[] nextOptimalSolution  = ArrayUtils.removeFirst(optimalSolution, coin); // TODO - Fix removeFirst
+            nextOptimalSolution = ArrayUtils.merge(nextOptimalSolution , simplify(coin));
+            listOfArrayOfCoinsWhichSumToTarget.add(nextOptimalSolution);
+        }
+        return listOfArrayOfCoinsWhichSumToTarget.stream().toArray(Integer[][]::new);
+    }
+
+    private Integer[] simplify(Integer coin) {
+        List<Integer> validCoinList = new ArrayList<>();
+        validCoinList.addAll(validCoinValues);
+        validCoinList.remove(coin);
+
+        return new ChangeComplementer(validCoinList).getOptimalComplementArray(coin);
     }
 }
