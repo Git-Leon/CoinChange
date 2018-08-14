@@ -12,6 +12,7 @@ public class ChangeComplementer {
     public ChangeComplementer(Iterable<Integer> validCoinValues, Collection<Integer> currentCoinList) {
         Set<Integer> orderedValidCoins = new TreeSet<>(Collections.reverseOrder());
         validCoinValues.forEach(coin -> orderedValidCoins.add(coin));
+        orderedValidCoins.add(1); // ensures there is a denomination of 1
 
         this.validCoinValues = orderedValidCoins;
         this.currentCoinList = currentCoinList;

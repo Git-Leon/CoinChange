@@ -32,37 +32,14 @@ public class ArrayUtils {
     }
 
 
-    public static <TypeOfObject> TypeOfObject[] removeFirstt(TypeOfObject[] array, TypeOfObject valueToRemove) {
-        List<TypeOfObject> result = new ArrayList<>();
-        boolean firstOccurrenceHasBeenRemoved = false;
-        for (TypeOfObject value : array) {
-            boolean shouldBeRemoved = value.equals(valueToRemove);
-            if (shouldBeRemoved) {
-                if (!firstOccurrenceHasBeenRemoved) {
-                    result.add(value);
-                    firstOccurrenceHasBeenRemoved = true;
-                }
-            }
-        }
-        TypeOfObject[] resultArray = Arrays.copyOf(array, array.length - 1);
-        return result.toArray(resultArray);
-    }
-
-
     public static <TypeOfObject> TypeOfObject[] removeFirst(TypeOfObject[] array, TypeOfObject valueToRemove) {
-        array = array.clone();
-        int size = array.length;
-        for (int i = 0; i < size; i++) {
-            TypeOfObject currentValue = array[i];
-            if (!currentValue.equals(valueToRemove)) {
-                continue;
-            }
-            size--;
-            System.arraycopy(array, i + 1, array, i, size - i);
-
-        }
-        return array;
+        TypeOfObject[] result = Arrays.copyOf(array, array.length - 1);
+        List<TypeOfObject> tempList = new ArrayList<>();
+        tempList.addAll(Arrays.asList(array));
+        tempList.remove(valueToRemove);
+        return tempList.toArray(result);
     }
+
 
     public static <TypeOfObject> TypeOfObject[] merge(TypeOfObject[]... arrays) {
         int totalLen = 0;
@@ -99,5 +76,38 @@ public class ArrayUtils {
     public static <TypeOfObject> TypeOfObject[] replaceFirst(TypeOfObject[] array, TypeOfObject valueToReplace, TypeOfObject... valuesToReplaceWith) {
         array = removeFirst(array, valueToReplace);
         return null; // TODO
+    }
+
+
+    public static <T> int getNumberOfOccurences(T[] objectArray, T value) {
+        int occurrences = 0;
+        for (T val : objectArray) {
+            boolean sameValue = val.equals(value);
+            if (sameValue) {
+                occurrences++;
+            }
+        }
+        return occurrences;
+    }
+
+    public static <T> T[] removeValue(T[] array, T valToRemove) {
+        int numberOfOccurrences = ArrayUtils.getNumberOfOccurences(array, valToRemove);
+        int newArrayLength = array.length - numberOfOccurrences;
+        T[] newArray = Arrays.copyOf(array, newArrayLength); // prevents casting issues
+
+        for (int i = 0, j = 0; j < newArrayLength; i++) {
+            T currentValue = array[i];
+
+            if (!currentValue.equals(valToRemove)) {
+                newArray[j] = currentValue;
+                j++;
+            }
+        }
+        return newArray;
+    }
+
+
+    public static <T> boolean contains(T[] objectArray, T value) {
+        return getNumberOfOccurences(objectArray, value) > 0;
     }
 }

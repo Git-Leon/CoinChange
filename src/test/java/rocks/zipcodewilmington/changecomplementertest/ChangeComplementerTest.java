@@ -1,4 +1,4 @@
-package rocks.zipcodewilmington;
+package rocks.zipcodewilmington.changecomplementertest;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -23,7 +23,7 @@ public class ChangeComplementerTest {
     }
 
     @Test
-    public void testCurrentCoinList25And25() {
+    public void testCurrentCoinList25And25Of51() {
         ChangeComplementer changeComplementer = new ChangeComplementer(set, 25, 25);
         Integer[] expected = {25, 25, 1};
         Integer[] actual = changeComplementer.getOptimalComplementArray(51);
@@ -33,7 +33,7 @@ public class ChangeComplementerTest {
 
 
     @Test
-    public void testCurrentCoinList25() {
+    public void testCurrentCoinList25Of51() {
         ChangeComplementer changeComplementer = new ChangeComplementer(set, 25);
         Integer[] expected = {25, 25, 1};
         Integer[] actual = changeComplementer.getOptimalComplementArray(51);
@@ -43,17 +43,13 @@ public class ChangeComplementerTest {
         Assert.assertEquals(expected, actual);
     }
 
-    @Test
-    public void t() {
-        Set set = new TreeSet(Collections.reverseOrder());
-        set.add(1);
-        set.add(3);
-        set.add(9);
-        set.add(5);
-        set.add(7);
 
-        System.out.println(Arrays.toString(set
-                .stream()
-                .toArray(Integer[]::new)));
+    @Test
+    public void testCurrentCoinList25And10Of51() {
+        ChangeComplementer changeComplementer = new ChangeComplementer(set, 25, 10);
+        Integer[] expected = {25, 10, 10, 5, 1};
+        Integer[] actual = changeComplementer.getOptimalComplementArray(51);
+
+        Assert.assertEquals(expected, actual);
     }
 }
