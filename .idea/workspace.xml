@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d187ad15-ab6c-451c-a8a1-fb487e167121" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/CoinCabinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/CoinRoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/CoinType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/ChangeComplementerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coinchange.iml" beforeDir="false" afterPath="$PROJECT_DIR$/coinchange.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/TestSetOf1And5And10And25AgainstN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/TestSetOf1And5And10And25AgainstN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/Cashier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rocks/zipcodewilmington/cashier/Cashier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rocks/zipcodewilmington/TestSetOf1And5And10And25AgainstN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rocks/zipcodewilmington/TestSetOf1And5And10And25AgainstN.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChangeComplementer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cashier.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangeComplementer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="-39">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -75,9 +66,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" />
         <option value="$PROJECT_DIR$/src/test/java/rocks/zipcodewilmington/ChangeComplementerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java" />
       </list>
     </option>
   </component>
@@ -303,26 +294,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534258693383</updated>
-      <workItem from="1534258695873" duration="4026000" />
+      <workItem from="1534258695873" duration="4343000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 55m 21s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 55m 24s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 56m 00s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 56m 07s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 57m 18s.xml">
-      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 13h 57m 21s.xml">
       <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
     </history-entry>
@@ -338,9 +314,24 @@
     <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 01m 06s.xml">
       <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 01m 15s.xml">
+      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 02m 16s.xml">
+      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 02m 18s.xml">
+      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 03m 22s.xml">
+      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeComplementerTest_testCurrentCoinList25 - 2018.08.14 at 14h 03m 25s.xml">
+      <configuration name="ChangeComplementerTest.testCurrentCoinList25" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4026000" />
+    <option name="totallyTimeSpent" value="4343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -357,16 +348,16 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3298969" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39948454" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39948454" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -427,13 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -450,8 +434,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/ChangeComplementer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        <state relative-caret-position="-39">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/rocks/zipcodewilmington/cashier/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
         </state>
       </provider>
     </entry>

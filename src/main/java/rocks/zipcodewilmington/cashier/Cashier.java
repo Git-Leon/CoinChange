@@ -28,14 +28,10 @@ public class Cashier {
     }
 
     public Integer[][] getSetOfValidChanges(int targetChange) {
-        Deque<Integer> coinStack = new LinkedList<>(validCoinValues);
-
         List<Integer[]> listOfArrayOfCoinsWhichSumToTarget = new ArrayList<>();
-        for (; !coinStack.isEmpty(); coinStack.pop()) {
-            ChangeComplementer cc = new ChangeComplementer(coinStack);
-            Integer[] arrayOfCoinsWhichSumToTarget = cc.getOptimalComplementArray(targetChange);
-            listOfArrayOfCoinsWhichSumToTarget.add(arrayOfCoinsWhichSumToTarget);
-        }
+        ChangeComplementer cc = new ChangeComplementer(validCoinValues);
+        Integer[] arrayOfCoinsWhichSumToTarget = cc.getOptimalComplementArray(targetChange);
+        listOfArrayOfCoinsWhichSumToTarget.add(arrayOfCoinsWhichSumToTarget);
         return listOfArrayOfCoinsWhichSumToTarget.stream().toArray(Integer[][]::new);
     }
 }
