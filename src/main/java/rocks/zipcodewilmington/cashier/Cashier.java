@@ -1,7 +1,6 @@
 package rocks.zipcodewilmington.cashier;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @author Vijay Kumar : email kumar.vijay@gmail.com
@@ -12,16 +11,16 @@ import java.util.stream.Collectors;
  */
 
 public class Cashier {
-    private final Set<Integer> coinSet;
+    private final Set<Integer> validCoinValues;
 
-    public Cashier(Set<Integer> coinSet) {
-        this.coinSet = coinSet;
+    public Cashier(Set<Integer> validCoinValues) {
+        this.validCoinValues = validCoinValues;
     }
 
-    public Cashier(Integer... coinArray) {
+    public Cashier(Integer... validCoinValues) {
         // enforces descending of our set
         this(new TreeSet<>(Collections.reverseOrder()));
-        coinSet.addAll(Arrays.asList(coinArray));
+        this.validCoinValues.addAll(Arrays.asList(validCoinValues));
     }
 
     public Cashier() {
@@ -29,20 +28,12 @@ public class Cashier {
     }
 
     public Integer[][] getSetOfValidChanges(int targetChange) {
-        Deque<Integer> coinStack = coinSet.stream().collect(Collectors.toCollection(LinkedList::new));
+        Deque<Integer> coinStack = new LinkedList<>(validCoinValues);
 
         List<Integer[]> listOfArrayOfCoinsWhichSumToTarget = new ArrayList<>();
-        while (!coinStack.isEmpty()) {
-            List<Integer> listOfCoinsWhichSumToTarget = new ArrayList<>();
-            int currentChange = targetChange;
-            for (Integer currentLargestCoin : coinStack) {
-                while (currentLargestCoin <= currentChange) {
-                    listOfCoinsWhichSumToTarget.add(currentLargestCoin);
-                    currentChange -= currentLargestCoin;
-                }
-            }
-            coinStack.pop();
-            Integer[] arrayOfCoinsWhichSumToTarget = listOfCoinsWhichSumToTarget.stream().toArray(Integer[]::new);
+        for (; !coinStack.isEmpty(); coinStack.pop()) {
+            ChangeComplementer cc = new ChangeComplementer(coinStack);
+            Integer[] arrayOfCoinsWhichSumToTarget = cc.getOptimalComplementArray(targetChange);
             listOfArrayOfCoinsWhichSumToTarget.add(arrayOfCoinsWhichSumToTarget);
         }
         return listOfArrayOfCoinsWhichSumToTarget.stream().toArray(Integer[][]::new);

@@ -20,9 +20,8 @@ public class TestSetOf1And5And10And25AgainstN {
                 new Integer[]{DIME, DIME, DIME, DIME, DIME, PENNY},
                 new Integer[]{NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, NICKLE, PENNY},
                 new Integer[]{PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY, PENNY}};
-        
-        
-        
+
+
         System.out.println(Arrays.deepToString(cashier.getSetOfValidChanges(51)));
     }
 
